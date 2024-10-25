@@ -1,32 +1,32 @@
 [
 {
-  "directory": "/Users/makennawarner/C++/Challenges/build/src",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/Challenges/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/L11Main.cpp.o -c /Users/makennawarner/C++/Challenges/src/L11Main.cpp",
-  "file": "/Users/makennawarner/C++/Challenges/src/L11Main.cpp",
+  "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/L11Main.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp",
+  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp",
   "output": "src/CMakeFiles/library_management_system.dir/L11Main.cpp.o"
 },
 {
-  "directory": "/Users/makennawarner/C++/Challenges/build/src",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/Challenges/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Library.cpp.o -c /Users/makennawarner/C++/Challenges/src/Library.cpp",
-  "file": "/Users/makennawarner/C++/Challenges/src/Library.cpp",
+  "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Library.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp",
+  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp",
   "output": "src/CMakeFiles/library_management_system.dir/Library.cpp.o"
 },
 {
-  "directory": "/Users/makennawarner/C++/Challenges/build/src",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/Challenges/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Book.cpp.o -c /Users/makennawarner/C++/Challenges/src/Book.cpp",
-  "file": "/Users/makennawarner/C++/Challenges/src/Book.cpp",
+  "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Book.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp",
+  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp",
   "output": "src/CMakeFiles/library_management_system.dir/Book.cpp.o"
 },
 {
-  "directory": "/Users/makennawarner/C++/Challenges/build/src",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/Challenges/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Magazine.cpp.o -c /Users/makennawarner/C++/Challenges/src/Magazine.cpp",
-  "file": "/Users/makennawarner/C++/Challenges/src/Magazine.cpp",
+  "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Magazine.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Magazine.cpp",
+  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/Magazine.cpp",
   "output": "src/CMakeFiles/library_management_system.dir/Magazine.cpp.o"
 },
 {
-  "directory": "/Users/makennawarner/C++/Challenges/build/src",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/Challenges/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/LibraryItem.cpp.o -c /Users/makennawarner/C++/Challenges/src/LibraryItem.cpp",
-  "file": "/Users/makennawarner/C++/Challenges/src/LibraryItem.cpp",
+  "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/LibraryItem.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp",
+  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp",
   "output": "src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o"
 }
 ]

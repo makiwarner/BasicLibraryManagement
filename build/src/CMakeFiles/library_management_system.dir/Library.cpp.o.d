@@ -1,6 +1,6 @@
 src/CMakeFiles/library_management_system.dir/Library.cpp.o: \
-  /Users/makennawarner/C++/Challenges/src/Library.cpp \
-  /Users/makennawarner/C++/Challenges/include/Library.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/Library.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -943,4 +943,4 @@ src/CMakeFiles/library_management_system.dir/Library.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/unistd.h \
-  /Users/makennawarner/C++/Challenges/include/LibraryItem.h
+  /Users/makennawarner/C++/BasicLibraryManagement/include/LibraryItem.h

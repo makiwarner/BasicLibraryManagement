@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/makennawarner/C++/Challenges
+CMAKE_SOURCE_DIR = /Users/makennawarner/C++/BasicLibraryManagement
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/makennawarner/C++/Challenges/build
+CMAKE_BINARY_DIR = /Users/makennawarner/C++/BasicLibraryManagement/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/makennawarner/C++/Challenges/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/makennawarner/C++/Challenges/build/CMakeFiles /Users/makennawarner/C++/Challenges/build/src//CMakeFiles/progress.marks
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/makennawarner/C++/Challenges/build/CMakeFiles 0
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles /Users/makennawarner/C++/BasicLibraryManagement/build/src//CMakeFiles/progress.marks
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/makennawarner/C++/Challenges/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/library_management_system.dir/rule:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/library_management_system.dir/rule
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/library_management_system.dir/rule
 .PHONY : src/CMakeFiles/library_management_system.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ library_management_system: src/CMakeFiles/library_management_system.dir/rule
 
 # fast build rule for target.
 library_management_system/fast:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/build
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/build
 .PHONY : library_management_system/fast
 
 Book.o: Book.cpp.o
@@ -135,7 +135,7 @@ Book.o: Book.cpp.o
 
 # target to build an object file
 Book.cpp.o:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.o
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.o
 .PHONY : Book.cpp.o
 
 Book.i: Book.cpp.i
@@ -143,7 +143,7 @@ Book.i: Book.cpp.i
 
 # target to preprocess a source file
 Book.cpp.i:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.i
 .PHONY : Book.cpp.i
 
 Book.s: Book.cpp.s
@@ -151,7 +151,7 @@ Book.s: Book.cpp.s
 
 # target to generate assembly for a file
 Book.cpp.s:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.s
 .PHONY : Book.cpp.s
 
 L11Main.o: L11Main.cpp.o
@@ -159,7 +159,7 @@ L11Main.o: L11Main.cpp.o
 
 # target to build an object file
 L11Main.cpp.o:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.o
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.o
 .PHONY : L11Main.cpp.o
 
 L11Main.i: L11Main.cpp.i
@@ -167,7 +167,7 @@ L11Main.i: L11Main.cpp.i
 
 # target to preprocess a source file
 L11Main.cpp.i:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.i
 .PHONY : L11Main.cpp.i
 
 L11Main.s: L11Main.cpp.s
@@ -175,7 +175,7 @@ L11Main.s: L11Main.cpp.s
 
 # target to generate assembly for a file
 L11Main.cpp.s:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.s
 .PHONY : L11Main.cpp.s
 
 Library.o: Library.cpp.o
@@ -183,7 +183,7 @@ Library.o: Library.cpp.o
 
 # target to build an object file
 Library.cpp.o:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Library.cpp.o
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Library.cpp.o
 .PHONY : Library.cpp.o
 
 Library.i: Library.cpp.i
@@ -191,7 +191,7 @@ Library.i: Library.cpp.i
 
 # target to preprocess a source file
 Library.cpp.i:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Library.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Library.cpp.i
 .PHONY : Library.cpp.i
 
 Library.s: Library.cpp.s
@@ -199,7 +199,7 @@ Library.s: Library.cpp.s
 
 # target to generate assembly for a file
 Library.cpp.s:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Library.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Library.cpp.s
 .PHONY : Library.cpp.s
 
 LibraryItem.o: LibraryItem.cpp.o
@@ -207,7 +207,7 @@ LibraryItem.o: LibraryItem.cpp.o
 
 # target to build an object file
 LibraryItem.cpp.o:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o
 .PHONY : LibraryItem.cpp.o
 
 LibraryItem.i: LibraryItem.cpp.i
@@ -215,7 +215,7 @@ LibraryItem.i: LibraryItem.cpp.i
 
 # target to preprocess a source file
 LibraryItem.cpp.i:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.i
 .PHONY : LibraryItem.cpp.i
 
 LibraryItem.s: LibraryItem.cpp.s
@@ -223,7 +223,7 @@ LibraryItem.s: LibraryItem.cpp.s
 
 # target to generate assembly for a file
 LibraryItem.cpp.s:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.s
 .PHONY : LibraryItem.cpp.s
 
 Magazine.o: Magazine.cpp.o
@@ -231,7 +231,7 @@ Magazine.o: Magazine.cpp.o
 
 # target to build an object file
 Magazine.cpp.o:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.o
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.o
 .PHONY : Magazine.cpp.o
 
 Magazine.i: Magazine.cpp.i
@@ -239,7 +239,7 @@ Magazine.i: Magazine.cpp.i
 
 # target to preprocess a source file
 Magazine.cpp.i:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.i
 .PHONY : Magazine.cpp.i
 
 Magazine.s: Magazine.cpp.s
@@ -247,7 +247,7 @@ Magazine.s: Magazine.cpp.s
 
 # target to generate assembly for a file
 Magazine.cpp.s:
-	cd /Users/makennawarner/C++/Challenges/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.s
 .PHONY : Magazine.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/makennawarner/C++/Challenges/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

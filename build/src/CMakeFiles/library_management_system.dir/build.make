@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/makennawarner/C++/Challenges
+CMAKE_SOURCE_DIR = /Users/makennawarner/C++/BasicLibraryManagement
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/makennawarner/C++/Challenges/build
+CMAKE_BINARY_DIR = /Users/makennawarner/C++/BasicLibraryManagement/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/library_management_system.dir/depend.make
@@ -70,74 +70,74 @@ include src/CMakeFiles/library_management_system.dir/progress.make
 include src/CMakeFiles/library_management_system.dir/flags.make
 
 src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
-src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: /Users/makennawarner/C++/Challenges/src/L11Main.cpp
+src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp
 src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/Challenges/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/library_management_system.dir/L11Main.cpp.o"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/L11Main.cpp.o -MF CMakeFiles/library_management_system.dir/L11Main.cpp.o.d -o CMakeFiles/library_management_system.dir/L11Main.cpp.o -c /Users/makennawarner/C++/Challenges/src/L11Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/library_management_system.dir/L11Main.cpp.o"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/L11Main.cpp.o -MF CMakeFiles/library_management_system.dir/L11Main.cpp.o.d -o CMakeFiles/library_management_system.dir/L11Main.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp
 
 src/CMakeFiles/library_management_system.dir/L11Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/L11Main.cpp.i"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/Challenges/src/L11Main.cpp > CMakeFiles/library_management_system.dir/L11Main.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp > CMakeFiles/library_management_system.dir/L11Main.cpp.i
 
 src/CMakeFiles/library_management_system.dir/L11Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/L11Main.cpp.s"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/Challenges/src/L11Main.cpp -o CMakeFiles/library_management_system.dir/L11Main.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp -o CMakeFiles/library_management_system.dir/L11Main.cpp.s
 
 src/CMakeFiles/library_management_system.dir/Library.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
-src/CMakeFiles/library_management_system.dir/Library.cpp.o: /Users/makennawarner/C++/Challenges/src/Library.cpp
+src/CMakeFiles/library_management_system.dir/Library.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp
 src/CMakeFiles/library_management_system.dir/Library.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/Challenges/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/library_management_system.dir/Library.cpp.o"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Library.cpp.o -MF CMakeFiles/library_management_system.dir/Library.cpp.o.d -o CMakeFiles/library_management_system.dir/Library.cpp.o -c /Users/makennawarner/C++/Challenges/src/Library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/library_management_system.dir/Library.cpp.o"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Library.cpp.o -MF CMakeFiles/library_management_system.dir/Library.cpp.o.d -o CMakeFiles/library_management_system.dir/Library.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp
 
 src/CMakeFiles/library_management_system.dir/Library.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/Library.cpp.i"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/Challenges/src/Library.cpp > CMakeFiles/library_management_system.dir/Library.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp > CMakeFiles/library_management_system.dir/Library.cpp.i
 
 src/CMakeFiles/library_management_system.dir/Library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/Library.cpp.s"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/Challenges/src/Library.cpp -o CMakeFiles/library_management_system.dir/Library.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp -o CMakeFiles/library_management_system.dir/Library.cpp.s
 
 src/CMakeFiles/library_management_system.dir/Book.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
-src/CMakeFiles/library_management_system.dir/Book.cpp.o: /Users/makennawarner/C++/Challenges/src/Book.cpp
+src/CMakeFiles/library_management_system.dir/Book.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp
 src/CMakeFiles/library_management_system.dir/Book.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/Challenges/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/library_management_system.dir/Book.cpp.o"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Book.cpp.o -MF CMakeFiles/library_management_system.dir/Book.cpp.o.d -o CMakeFiles/library_management_system.dir/Book.cpp.o -c /Users/makennawarner/C++/Challenges/src/Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/library_management_system.dir/Book.cpp.o"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Book.cpp.o -MF CMakeFiles/library_management_system.dir/Book.cpp.o.d -o CMakeFiles/library_management_system.dir/Book.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp
 
 src/CMakeFiles/library_management_system.dir/Book.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/Book.cpp.i"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/Challenges/src/Book.cpp > CMakeFiles/library_management_system.dir/Book.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp > CMakeFiles/library_management_system.dir/Book.cpp.i
 
 src/CMakeFiles/library_management_system.dir/Book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/Book.cpp.s"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/Challenges/src/Book.cpp -o CMakeFiles/library_management_system.dir/Book.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp -o CMakeFiles/library_management_system.dir/Book.cpp.s
 
 src/CMakeFiles/library_management_system.dir/Magazine.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
-src/CMakeFiles/library_management_system.dir/Magazine.cpp.o: /Users/makennawarner/C++/Challenges/src/Magazine.cpp
+src/CMakeFiles/library_management_system.dir/Magazine.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/Magazine.cpp
 src/CMakeFiles/library_management_system.dir/Magazine.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/Challenges/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/library_management_system.dir/Magazine.cpp.o"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Magazine.cpp.o -MF CMakeFiles/library_management_system.dir/Magazine.cpp.o.d -o CMakeFiles/library_management_system.dir/Magazine.cpp.o -c /Users/makennawarner/C++/Challenges/src/Magazine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/library_management_system.dir/Magazine.cpp.o"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Magazine.cpp.o -MF CMakeFiles/library_management_system.dir/Magazine.cpp.o.d -o CMakeFiles/library_management_system.dir/Magazine.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Magazine.cpp
 
 src/CMakeFiles/library_management_system.dir/Magazine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/Magazine.cpp.i"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/Challenges/src/Magazine.cpp > CMakeFiles/library_management_system.dir/Magazine.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/Magazine.cpp > CMakeFiles/library_management_system.dir/Magazine.cpp.i
 
 src/CMakeFiles/library_management_system.dir/Magazine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/Magazine.cpp.s"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/Challenges/src/Magazine.cpp -o CMakeFiles/library_management_system.dir/Magazine.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/Magazine.cpp -o CMakeFiles/library_management_system.dir/Magazine.cpp.s
 
 src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
-src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o: /Users/makennawarner/C++/Challenges/src/LibraryItem.cpp
+src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp
 src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/Challenges/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o -MF CMakeFiles/library_management_system.dir/LibraryItem.cpp.o.d -o CMakeFiles/library_management_system.dir/LibraryItem.cpp.o -c /Users/makennawarner/C++/Challenges/src/LibraryItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o -MF CMakeFiles/library_management_system.dir/LibraryItem.cpp.o.d -o CMakeFiles/library_management_system.dir/LibraryItem.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp
 
 src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/LibraryItem.cpp.i"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/Challenges/src/LibraryItem.cpp > CMakeFiles/library_management_system.dir/LibraryItem.cpp.i
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp > CMakeFiles/library_management_system.dir/LibraryItem.cpp.i
 
 src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/LibraryItem.cpp.s"
-	cd /Users/makennawarner/C++/Challenges/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/Challenges/src/LibraryItem.cpp -o CMakeFiles/library_management_system.dir/LibraryItem.cpp.s
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp -o CMakeFiles/library_management_system.dir/LibraryItem.cpp.s
 
 # Object files for target library_management_system
 library_management_system_OBJECTS = \
@@ -157,18 +157,18 @@ bin/library_management_system: src/CMakeFiles/library_management_system.dir/Maga
 bin/library_management_system: src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o
 bin/library_management_system: src/CMakeFiles/library_management_system.dir/build.make
 bin/library_management_system: src/CMakeFiles/library_management_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/makennawarner/C++/Challenges/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/library_management_system"
-	cd /Users/makennawarner/C++/Challenges/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/library_management_system.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/library_management_system"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/library_management_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/library_management_system.dir/build: bin/library_management_system
 .PHONY : src/CMakeFiles/library_management_system.dir/build
 
 src/CMakeFiles/library_management_system.dir/clean:
-	cd /Users/makennawarner/C++/Challenges/build/src && $(CMAKE_COMMAND) -P CMakeFiles/library_management_system.dir/cmake_clean.cmake
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && $(CMAKE_COMMAND) -P CMakeFiles/library_management_system.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/library_management_system.dir/clean
 
 src/CMakeFiles/library_management_system.dir/depend:
-	cd /Users/makennawarner/C++/Challenges/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/makennawarner/C++/Challenges /Users/makennawarner/C++/Challenges/src /Users/makennawarner/C++/Challenges/build /Users/makennawarner/C++/Challenges/build/src /Users/makennawarner/C++/Challenges/build/src/CMakeFiles/library_management_system.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/makennawarner/C++/BasicLibraryManagement /Users/makennawarner/C++/BasicLibraryManagement/src /Users/makennawarner/C++/BasicLibraryManagement/build /Users/makennawarner/C++/BasicLibraryManagement/build/src /Users/makennawarner/C++/BasicLibraryManagement/build/src/CMakeFiles/library_management_system.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/library_management_system.dir/depend
 

@@ -1,6 +1,6 @@
 src/CMakeFiles/library_management_system.dir/Book.cpp.o: \
-  /Users/makennawarner/C++/Challenges/src/Book.cpp \
-  /Users/makennawarner/C++/Challenges/include/Book.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/src/Book.cpp \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/Book.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -797,7 +797,7 @@ src/CMakeFiles/library_management_system.dir/Book.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/byteswap.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
-  /Users/makennawarner/C++/Challenges/include/LibraryItem.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/LibraryItem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__locale \

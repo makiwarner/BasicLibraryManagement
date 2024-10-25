@@ -1,5 +1,5 @@
 src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: \
-  /Users/makennawarner/C++/Challenges/src/L11Main.cpp \
+  /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assertion_handler \
@@ -942,7 +942,7 @@ src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/unistd.h \
-  /Users/makennawarner/C++/Challenges/include/LibraryItem.h \
-  /Users/makennawarner/C++/Challenges/include/Book.h \
-  /Users/makennawarner/C++/Challenges/include/Magazine.h \
-  /Users/makennawarner/C++/Challenges/include/Library.h
+  /Users/makennawarner/C++/BasicLibraryManagement/include/LibraryItem.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/Book.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/Magazine.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/Library.h

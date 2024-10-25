@@ -1,6 +1,6 @@
 src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.o: \
-  /Users/makennawarner/C++/Challenges/src/LibraryItem.cpp \
-  /Users/makennawarner/C++/Challenges/include/LibraryItem.h \
+  /Users/makennawarner/C++/BasicLibraryManagement/src/LibraryItem.cpp \
+  /Users/makennawarner/C++/BasicLibraryManagement/include/LibraryItem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assertion_handler \

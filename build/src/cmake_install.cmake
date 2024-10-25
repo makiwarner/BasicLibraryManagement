@@ -1,4 +1,4 @@
-# Install script for directory: /Users/makennawarner/C++/Challenges/src
+# Install script for directory: /Users/makennawarner/C++/BasicLibraryManagement/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

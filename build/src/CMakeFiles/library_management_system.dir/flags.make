@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/makennawarner/C++/Challenges/include
+CXX_INCLUDES = -I/Users/makennawarner/C++/BasicLibraryManagement/include
 
 CXX_FLAGS = -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
 
