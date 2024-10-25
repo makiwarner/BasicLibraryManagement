@@ -29,9 +29,9 @@ int main() {
     return 0;
 }
 
-//to run, use
-//mkdir build (if you havent already)
-//cd build (if you havent already)
-//cmake .. (run CMake to configure the project... if you havent already)
-//build the project (cmake --build .   ... if you havent already)
-//./bin/library_management_system (run the executable)
+// to run, use
+// mkdir build (if you havent already)
+// cd build (if you havent already)
+// cmake .. (run CMake to configure the project... if you havent already)
+// build the project (cmake --build .   ... if you havent already)
+// ./bin/library_management_system (run the executable)
