@@ -14,6 +14,13 @@ public:
 
     //Override the display function
     void display() const override;
+
+    // New functions for text and bin file I/O (L14 Challenge)
+    void serializeToText(std::ofstream& outFile) const;
+    void deserializeFromText(std::ifstream& inFile);
+
+    void serializeToBinary(std::ofstream& outFile) const;
+    void deserializeFromBinary(std::ifstream& inFile);
 };
 
 #endif  //MAGAZINE_H

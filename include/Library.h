@@ -13,6 +13,8 @@ private:
     std::vector<std::unique_ptr<LibraryItem>> items;
 
 public:
+    void loadItemsFromBinary(std::ifstream& inFile); //added from L14
+
     void addItem(std::unique_ptr<LibraryItem> item);
 
     void displayAllItems() const;
@@ -20,6 +22,8 @@ public:
     void checkOutItem(const std::string& title);
 
     void returnItem(const std::string& title);
+
+    void saveItemsToBinary(std::ofstream& outFile) const; //added from L14
 };
 
 #endif  // LIBRARY_H

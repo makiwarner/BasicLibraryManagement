@@ -1,5 +1,5 @@
 add_executable(library_management_system
-    L11Main.cpp
+    Main.cpp
     Library.cpp
     Book.cpp
     Magazine.cpp
