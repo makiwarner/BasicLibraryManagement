@@ -1,9 +1,9 @@
 [
 {
   "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/L11Main.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp",
-  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp",
-  "output": "src/CMakeFiles/library_management_system.dir/L11Main.cpp.o"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/makennawarner/C++/BasicLibraryManagement/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -o CMakeFiles/library_management_system.dir/Main.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Main.cpp",
+  "file": "/Users/makennawarner/C++/BasicLibraryManagement/src/Main.cpp",
+  "output": "src/CMakeFiles/library_management_system.dir/Main.cpp.o"
 },
 {
   "directory": "/Users/makennawarner/C++/BasicLibraryManagement/build/src",

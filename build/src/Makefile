@@ -154,30 +154,6 @@ Book.cpp.s:
 	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Book.cpp.s
 .PHONY : Book.cpp.s
 
-L11Main.o: L11Main.cpp.o
-.PHONY : L11Main.o
-
-# target to build an object file
-L11Main.cpp.o:
-	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.o
-.PHONY : L11Main.cpp.o
-
-L11Main.i: L11Main.cpp.i
-.PHONY : L11Main.i
-
-# target to preprocess a source file
-L11Main.cpp.i:
-	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.i
-.PHONY : L11Main.cpp.i
-
-L11Main.s: L11Main.cpp.s
-.PHONY : L11Main.s
-
-# target to generate assembly for a file
-L11Main.cpp.s:
-	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/L11Main.cpp.s
-.PHONY : L11Main.cpp.s
-
 Library.o: Library.cpp.o
 .PHONY : Library.o
 
@@ -250,6 +226,30 @@ Magazine.cpp.s:
 	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Magazine.cpp.s
 .PHONY : Magazine.cpp.s
 
+Main.o: Main.cpp.o
+.PHONY : Main.o
+
+# target to build an object file
+Main.cpp.o:
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Main.cpp.o
+.PHONY : Main.cpp.o
+
+Main.i: Main.cpp.i
+.PHONY : Main.i
+
+# target to preprocess a source file
+Main.cpp.i:
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Main.cpp.i
+.PHONY : Main.cpp.i
+
+Main.s: Main.cpp.s
+.PHONY : Main.s
+
+# target to generate assembly for a file
+Main.cpp.s:
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/library_management_system.dir/build.make src/CMakeFiles/library_management_system.dir/Main.cpp.s
+.PHONY : Main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,9 +262,6 @@ help:
 	@echo "... Book.o"
 	@echo "... Book.i"
 	@echo "... Book.s"
-	@echo "... L11Main.o"
-	@echo "... L11Main.i"
-	@echo "... L11Main.s"
 	@echo "... Library.o"
 	@echo "... Library.i"
 	@echo "... Library.s"
@@ -274,6 +271,9 @@ help:
 	@echo "... Magazine.o"
 	@echo "... Magazine.i"
 	@echo "... Magazine.s"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
 .PHONY : help
 
 

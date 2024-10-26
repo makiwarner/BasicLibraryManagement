@@ -69,19 +69,19 @@ include src/CMakeFiles/library_management_system.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/library_management_system.dir/flags.make
 
-src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
-src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp
-src/CMakeFiles/library_management_system.dir/L11Main.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/library_management_system.dir/L11Main.cpp.o"
-	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/L11Main.cpp.o -MF CMakeFiles/library_management_system.dir/L11Main.cpp.o.d -o CMakeFiles/library_management_system.dir/L11Main.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp
+src/CMakeFiles/library_management_system.dir/Main.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
+src/CMakeFiles/library_management_system.dir/Main.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/Main.cpp
+src/CMakeFiles/library_management_system.dir/Main.cpp.o: src/CMakeFiles/library_management_system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/makennawarner/C++/BasicLibraryManagement/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/library_management_system.dir/Main.cpp.o"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/library_management_system.dir/Main.cpp.o -MF CMakeFiles/library_management_system.dir/Main.cpp.o.d -o CMakeFiles/library_management_system.dir/Main.cpp.o -c /Users/makennawarner/C++/BasicLibraryManagement/src/Main.cpp
 
-src/CMakeFiles/library_management_system.dir/L11Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/L11Main.cpp.i"
-	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp > CMakeFiles/library_management_system.dir/L11Main.cpp.i
+src/CMakeFiles/library_management_system.dir/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library_management_system.dir/Main.cpp.i"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/makennawarner/C++/BasicLibraryManagement/src/Main.cpp > CMakeFiles/library_management_system.dir/Main.cpp.i
 
-src/CMakeFiles/library_management_system.dir/L11Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/L11Main.cpp.s"
-	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/L11Main.cpp -o CMakeFiles/library_management_system.dir/L11Main.cpp.s
+src/CMakeFiles/library_management_system.dir/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library_management_system.dir/Main.cpp.s"
+	cd /Users/makennawarner/C++/BasicLibraryManagement/build/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/makennawarner/C++/BasicLibraryManagement/src/Main.cpp -o CMakeFiles/library_management_system.dir/Main.cpp.s
 
 src/CMakeFiles/library_management_system.dir/Library.cpp.o: src/CMakeFiles/library_management_system.dir/flags.make
 src/CMakeFiles/library_management_system.dir/Library.cpp.o: /Users/makennawarner/C++/BasicLibraryManagement/src/Library.cpp
@@ -141,7 +141,7 @@ src/CMakeFiles/library_management_system.dir/LibraryItem.cpp.s: cmake_force
 
 # Object files for target library_management_system
 library_management_system_OBJECTS = \
-"CMakeFiles/library_management_system.dir/L11Main.cpp.o" \
+"CMakeFiles/library_management_system.dir/Main.cpp.o" \
 "CMakeFiles/library_management_system.dir/Library.cpp.o" \
 "CMakeFiles/library_management_system.dir/Book.cpp.o" \
 "CMakeFiles/library_management_system.dir/Magazine.cpp.o" \
@@ -150,7 +150,7 @@ library_management_system_OBJECTS = \
 # External object files for target library_management_system
 library_management_system_EXTERNAL_OBJECTS =
 
-bin/library_management_system: src/CMakeFiles/library_management_system.dir/L11Main.cpp.o
+bin/library_management_system: src/CMakeFiles/library_management_system.dir/Main.cpp.o
 bin/library_management_system: src/CMakeFiles/library_management_system.dir/Library.cpp.o
 bin/library_management_system: src/CMakeFiles/library_management_system.dir/Book.cpp.o
 bin/library_management_system: src/CMakeFiles/library_management_system.dir/Magazine.cpp.o
